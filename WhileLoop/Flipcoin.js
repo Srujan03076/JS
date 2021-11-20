@@ -1,8 +1,8 @@
-let headCount=0;
-let tailCount=0;
+var headCount=0;
+var tailCount=0;
 while(headCount<=10 || tailCount<=10)
 {
-    let flip=Math.floor(Math.random()*10)%2;
+    var flip=Math.floor(Math.random()*10)%2;
     if(flip==0)
     {
         console.log("Head")
